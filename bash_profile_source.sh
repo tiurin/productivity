@@ -12,5 +12,6 @@ alias la='ls -la'
 alias gits='git status'
 alias gitac='git add --all && git commit'
 alias gitds='git diff --staged'
-alias gitl='git log --oneline'
+alias gitl='git log --oneline -n20'
 alias gitp='git pull --rebase --prune'
+
