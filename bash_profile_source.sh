@@ -1,6 +1,9 @@
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 
+# To go back to Java 8 automatically after playing with Java 9
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+
 source ~/workspaces/git/contrib/completion/git-prompt.sh
 source ~/workspaces/git/contrib/completion/git-completion.bash
 
