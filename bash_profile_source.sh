@@ -19,12 +19,3 @@ alias gitds='git diff --staged'
 alias gitl='git log --oneline -n20'
 alias gitp='git pull --rebase --prune'
 
-# Apache Kafka
-alias zkstart='sh /opt/kafka_2.11-0.10.1.1/bin/zookeeper-server-start.sh /opt/kafka_2.11-0.10.1.1/config/zookeeper.properties'
-alias zkstop='sh /opt/kafka_2.11-0.10.1.1/bin/zookeeper-server-stop.sh'
-alias kafkastart0='sh /opt/kafka_2.11-0.10.1.1/bin/kafka-server-start.sh /opt/kafka_2.11-0.10.1.1/config/server.properties'
-alias kafkastart1='sh /opt/kafka_2.11-0.10.1.1/bin/kafka-server-start.sh /opt/kafka_2.11-0.10.1.1/config/server-1.properties'
-alias kafkastart2='sh /opt/kafka_2.11-0.10.1.1/bin/kafka-server-start.sh /opt/kafka_2.11-0.10.1.1/config/server-2.properties'
-alias kafkastop='sh /opt/kafka_2.11-0.10.1.1/bin/kafka-server-stop.sh'
-
-
