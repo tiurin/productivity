@@ -1,6 +1,6 @@
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
-export LANG=en
+export LANG=en_US.UTF-8
 export GPG_TTY=$(tty)
 # To go back to Java 8 automatically after playing with Java 9
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
