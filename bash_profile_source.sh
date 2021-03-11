@@ -3,7 +3,7 @@ export PATH=/usr/local/sbin:$PATH
 export LANG=en_US.UTF-8
 export GPG_TTY=$(tty)
 # To go back to Java 8 automatically after playing with Java 9
-export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+export JAVA_HOME=$(/usr/libexec/java_home -v 11)
 export BAT_THEME='Monokai Extended Light'
 source ~/workspaces/tiurin/git/contrib/completion/git-prompt.sh
 source ~/workspaces/tiurin/git/contrib/completion/git-completion.bash
