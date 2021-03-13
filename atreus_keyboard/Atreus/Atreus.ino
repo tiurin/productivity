@@ -1,4 +1,4 @@
-/* -*- mode: c++ -*-
+ /* -*- mode: c++ -*-
  * Atreus -- Chrysalis-enabled Sketch for the Keyboardio Atreus
  * Copyright (C) 2018, 2019  Keyboard.io, Inc
  *
@@ -63,26 +63,26 @@ KEYMAPS(
   (
        Key_Q         ,Key_W         ,Key_E       ,Key_R          ,Key_T
       ,Key_A         ,Key_S         ,Key_D       ,Key_F          ,Key_G
-      ,Key_Z         ,Key_X         ,Key_C       ,Key_V          ,Key_B         ,Key_Esc
-      ,Key_LeftArrow ,Key_DownArrow ,Key_UpArrow ,Key_RightArrow ,Key_Backspace ,Key_Tab
+      ,Key_Z         ,Key_X         ,Key_C       ,Key_V          ,Key_B ,Key_Esc
+      ,Key_LeftArrow ,Key_RightArrow ,MO(UPPER) ,Key_Backspace ,MO(FUN) ,Key_Tab
 
-                     ,Key_Y     ,Key_U      ,Key_I     ,Key_O      ,Key_P
-                     ,Key_H     ,Key_J      ,Key_K     ,Key_L      ,Key_Semicolon
-       ,Key_Backtick ,Key_N     ,Key_M      ,Key_Comma ,Key_Period ,Key_Slash
-       ,Key_Enter    ,Key_Space ,MO(FUN)    ,MO(UPPER) ,Key_Minus  ,Key_Quote
+                     ,Key_Y     ,Key_U      ,Key_I     ,Key_O         ,Key_P
+                     ,Key_H     ,Key_J      ,Key_K     ,Key_L         ,Key_Semicolon
+       ,Key_Quote    ,Key_N     ,Key_M      ,Key_Comma ,Key_Period    ,Key_Slash
+       ,Key_Enter    ,MO(FUN)   ,Key_Space  ,MO(UPPER) ,Key_DownArrow ,Key_UpArrow   
   ),
 
   [FUN] = KEYMAP_STACKED
   (
-       Key_Exclamation ,Key_At           ,Key_LeftCurlyBracket ,Key_RightCurlyBracket, XXX
-      ,Key_Hash        ,Key_Dollar       ,Key_LeftParen        ,Key_RightParen      , XXX
-      ,Key_Percent     ,Key_Caret        ,Key_LeftBracket      ,Key_RightBracket     ,Key_Insert ,___
-      ,Key_Home        ,Key_PageDown     ,Key_PageUp           ,Key_End              ,Key_Delete ,___
+       Key_Exclamation ,Key_At           ,Key_LeftCurlyBracket ,Key_RightCurlyBracket, LSHIFT(Key_Minus)
+      ,Key_Hash        ,Key_Dollar       ,Key_LeftParen        ,Key_RightParen      ,Key_Minus
+      ,Key_Percent     ,Key_Caret        ,Key_LeftBracket      ,Key_RightBracket     ,Key_Plus ,___
+      ,Key_Home        ,Key_End          ,___       ,Key_Delete ,___ ,___   
 
            ,LSHIFT(Key_7) /* & */          ,Key_7 ,Key_8 ,Key_9      ,Key_0
            ,Key_KeypadMultiply             ,Key_4 ,Key_5 ,Key_6      ,Key_Equals
-      ,___ ,LSHIFT(Key_Backslash) /*pipe*/ ,Key_1 ,Key_2 ,Key_3      ,Key_Plus
-      ,___ ,___                            ,___   ,___   ,Key_Period ,Key_Backslash
+      ,Key_Backtick  ,LSHIFT(Key_Backslash) /*pipe*/ ,Key_1 ,Key_2 ,Key_3      ,Key_Backslash
+      ,___ ,___                            ,___   ,___   ,Key_PageDown     ,Key_PageUp
    ),
 
   [UPPER] = KEYMAP_STACKED
