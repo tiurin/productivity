@@ -172,7 +172,7 @@ void setup() {
     kaleidoscope::plugin::Qukey(2, KeyAddr(1, 11), Key_RightShift),       // ;/shift
   )
 //  Qukeys.setHoldTimeout(1000); // 1 second time out for
-  Qukeys.setOverlapThreshold(75); // roll-over - allow modifier key to be released before the modified key
+  Qukeys.setOverlapThreshold(50); // roll-over - allow modifier key to be released before the modified key
   
 //  EEPROMKeymap.setup(10);
 }
