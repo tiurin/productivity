@@ -63,10 +63,38 @@
       {"code": 19, "label": {"base": "p", "shifted": "P"}},
       {"code": 46, "label": {"base": "=", "shifted": "+"}},
       {"code": 75, "label": {"base": {"full": "Page Up", "1u": "PgUp"}}},
-      {"code": 4, "label": {"base": "a", "shifted": "A"}},
-      {"code": 22, "label": {"base": "s", "shifted": "S"}},
-      {"code": 7, "label": {"base": "d", "shifted": "D"}},
-      {"code": 9, "label": {"base": "f", "shifted": "F"}},
+      {
+        "code": 49429,
+        "baseCode": 4,
+        "label": {"hint": "Shift/", "base": "a"},
+        "modifier": "Shift",
+        "rangeStart": 49169,
+        "categories": ["modifier", "dualuse", "shift"]
+      },
+      {
+        "code": 49191,
+        "baseCode": 22,
+        "label": {"hint": "Control/", "base": "s"},
+        "modifier": "Control",
+        "rangeStart": 49169,
+        "categories": ["modifier", "dualuse", "ctrl"]
+      },
+      {
+        "code": 49688,
+        "baseCode": 7,
+        "label": {"hint": "Alt/", "base": "d"},
+        "modifier": "Alt",
+        "rangeStart": 49169,
+        "categories": ["modifier", "dualuse", "alt"]
+      },
+      {
+        "code": 49946,
+        "baseCode": 9,
+        "label": {"hint": "Command/", "base": "f"},
+        "modifier": "Command",
+        "rangeStart": 49169,
+        "categories": ["modifier", "dualuse", "gui"]
+      },
       {"code": 10, "label": {"base": "g", "shifted": "G"}},
       {"code": 41, "label": {"base": "Esc"}},
       {
@@ -88,10 +116,38 @@
         "categories": ["modifier"]
       },
       {"code": 11, "label": {"base": "h", "shifted": "H"}},
-      {"code": 13, "label": {"base": "j", "shifted": "J"}},
-      {"code": 14, "label": {"base": "k", "shifted": "K"}},
-      {"code": 15, "label": {"base": "l", "shifted": "L"}},
-      {"code": 51, "label": {"base": ";", "shifted": ":"}},
+      {
+        "code": 49950,
+        "baseCode": 13,
+        "label": {"hint": "Command/", "base": "j"},
+        "modifier": "Command",
+        "rangeStart": 49169,
+        "categories": ["modifier", "dualuse", "gui"]
+      },
+      {
+        "code": 49695,
+        "baseCode": 14,
+        "label": {"hint": "Alt/", "base": "k"},
+        "modifier": "Alt",
+        "rangeStart": 49169,
+        "categories": ["modifier", "dualuse", "alt"]
+      },
+      {
+        "code": 49184,
+        "baseCode": 15,
+        "label": {"hint": "Control/", "base": "l"},
+        "modifier": "Control",
+        "rangeStart": 49169,
+        "categories": ["modifier", "dualuse", "ctrl"]
+      },
+      {
+        "code": 49476,
+        "baseCode": 51,
+        "label": {"hint": "Shift/", "base": ";"},
+        "modifier": "Shift",
+        "rangeStart": 49169,
+        "categories": ["modifier", "dualuse", "shift"]
+      },
       {"code": 52, "label": {"base": "'", "shifted": "\""}},
       {"code": 78, "label": {"base": {"full": "Page Down", "1u": "PgDn"}}},
       {"code": 29, "label": {"base": "z", "shifted": "Z"}},
