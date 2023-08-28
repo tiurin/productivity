@@ -16,8 +16,16 @@
         "label": {"hint": {"full": "LEDEffect", "1u": "LED"}, "base": "Next"},
         "categories": ["ledkeys"]
       },
-      {"code": 42, "label": {"base": {"full": "Backspace", "1u": "Bksp"}}},
-      {"code": 79, "label": {"base": {"full": "Right Arrow", "1u": "→"}}},
+      {
+        "code": 0,
+        "label": {"base": {"full": "Blocked", "1u": "Blkd"}},
+        "categories": ["blanks"]
+      },
+      {
+        "code": 0,
+        "label": {"base": {"full": "Blocked", "1u": "Blkd"}},
+        "categories": ["blanks"]
+      },
       {
         "code": 24577,
         "label": {"hint": "Macro", "base": "#1"},
@@ -43,8 +51,8 @@
       {"code": 21, "label": {"base": "r", "shifted": "R"}},
       {"code": 23, "label": {"base": "t", "shifted": "T"}},
       {"code": 43, "label": {"base": "Tab"}},
+      {"code": 42, "label": {"base": {"full": "Backspace", "1u": "Bksp"}}},
       {"code": 44, "label": {"base": "Space"}},
-      {"code": 82, "label": {"base": {"full": "Up Arrow", "1u": "↑"}}},
       {"code": 40, "label": {"base": "Enter"}},
       {"code": 28, "label": {"base": "y", "shifted": "Y"}},
       {"code": 24, "label": {"base": "u", "shifted": "U"}},
@@ -87,8 +95,8 @@
       },
       {"code": 10, "label": {"base": "g", "shifted": "G"}},
       {"code": 41, "label": {"base": "Esc"}},
-      {"code": 43, "label": {"base": "Tab"}},
-      {"code": 81, "label": {"base": {"full": "Down Arrow", "1u": "↓"}}},
+      {"code": 80, "label": {"base": {"full": "Left Arrow", "1u": "←"}}},
+      {"code": 79, "label": {"base": {"full": "Right Arrow", "1u": "→"}}},
       {
         "code": 230,
         "label": {"base": {"full": "AltGr", "1u": "AGr"}},
@@ -142,8 +150,8 @@
         "rangeStart": 17450,
         "categories": ["layer", "shifttolayer"]
       },
-      {"code": 40, "label": {"base": "Enter"}},
-      {"code": 80, "label": {"base": {"full": "Left Arrow", "1u": "←"}}},
+      {"code": 81, "label": {"base": {"full": "Down Arrow", "1u": "↓"}}},
+      {"code": 82, "label": {"base": {"full": "Up Arrow", "1u": "↑"}}},
       {
         "code": 17452,
         "label": {"hint": "ShiftTo", "base": "#2"},
@@ -424,8 +432,12 @@
       {"code": 60, "label": {"base": "F3"}},
       {"code": 61, "label": {"base": "F4"}},
       {"code": 62, "label": {"base": "F5"}},
-      {"code": 57, "label": {"base": {"full": "Caps Lock", "1u": "CpLK"}}},
-      {"code": 76, "label": {"base": {"full": "Delete", "1u": "Del"}}},
+      {"code": 57, "label": {"base": {"full": "Caps Lock", "1u": "Caps"}}},
+      {
+        "code": 65535,
+        "label": {"base": {"full": "Transparent", "1u": " "}},
+        "categories": ["blanks"]
+      },
       {
         "code": 65535,
         "label": {"base": {"full": "Transparent", "1u": " "}},
@@ -480,11 +492,7 @@
         },
         "categories": ["mousekeys"]
       },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
+      {"code": 76, "label": {"base": {"full": "Delete", "1u": "Del"}}},
       {
         "code": 65535,
         "label": {"base": {"full": "Transparent", "1u": " "}},
