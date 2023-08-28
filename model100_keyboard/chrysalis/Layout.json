@@ -17,14 +17,16 @@
         "categories": ["ledkeys"]
       },
       {
-        "code": 0,
-        "label": {"base": {"full": "Blocked", "1u": "Blkd"}},
-        "categories": ["blanks"]
+        "code": 225,
+        "label": {"base": "Shift"},
+        "location": "left",
+        "categories": ["modifier"]
       },
       {
-        "code": 0,
-        "label": {"base": {"full": "Blocked", "1u": "Blkd"}},
-        "categories": ["blanks"]
+        "code": 231,
+        "label": {"base": {"full": "Command", "1u": "Cmd", "short": "Cm"}},
+        "location": "right",
+        "categories": ["modifier"]
       },
       {
         "code": 24577,
