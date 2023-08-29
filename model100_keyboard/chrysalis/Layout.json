@@ -44,7 +44,7 @@
       {"code": 23, "label": {"base": "t", "shifted": "T"}},
       {"code": 43, "label": {"base": "Tab"}},
       {"code": 44, "label": {"base": "Space"}},
-      {"code": 82, "label": {"base": {"full": "Up Arrow", "1u": "↑"}}},
+      {"code": 80, "label": {"base": {"full": "Left Arrow", "1u": "←"}}},
       {"code": 40, "label": {"base": "Enter"}},
       {"code": 28, "label": {"base": "y", "shifted": "Y"}},
       {"code": 24, "label": {"base": "u", "shifted": "U"}},
@@ -93,7 +93,7 @@
         "location": "right",
         "categories": ["modifier"]
       },
-      {"code": 81, "label": {"base": {"full": "Down Arrow", "1u": "↓"}}},
+      {"code": 82, "label": {"base": {"full": "Up Arrow", "1u": "↑"}}},
       {
         "code": 230,
         "label": {"base": {"full": "AltGr", "1u": "AGr"}},
@@ -153,7 +153,7 @@
         "location": "right",
         "categories": ["modifier"]
       },
-      {"code": 80, "label": {"base": {"full": "Left Arrow", "1u": "←"}}},
+      {"code": 81, "label": {"base": {"full": "Down Arrow", "1u": "↓"}}},
       {
         "code": 17452,
         "label": {"hint": "ShiftTo", "base": "#2"},
