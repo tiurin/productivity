@@ -437,9 +437,12 @@
       {"code": 57, "label": {"base": {"full": "Caps Lock", "1u": "Caps"}}},
       {"code": 76, "label": {"base": {"full": "Delete", "1u": "Del"}}},
       {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
+        "code": 20545,
+        "label": {
+          "hint": {"full": "Mouse Button", "1u": "M.Btn"},
+          "base": "Left"
+        },
+        "categories": ["mousekeys"]
       },
       {
         "code": 18614,
@@ -496,9 +499,12 @@
         "categories": ["blanks"]
       },
       {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
+        "code": 20546,
+        "label": {
+          "hint": {"full": "Mouse Button", "1u": "M.Btn"},
+          "base": "Right"
+        },
+        "categories": ["mousekeys"]
       },
       {
         "code": 18637,
@@ -568,14 +574,14 @@
         "categories": ["mousekeys"]
       },
       {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
+        "code": 20482,
+        "label": {"hint": "Mouse", "base": "Down"},
+        "categories": ["mousekeys"]
       },
       {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
+        "code": 20488,
+        "label": {"hint": "Mouse", "base": "Right"},
+        "categories": ["mousekeys"]
       },
       {"code": 101, "label": {"base": "Menu"}},
       {"code": 80, "label": {"base": {"full": "Left Arrow", "1u": "←"}}},
@@ -622,14 +628,14 @@
         "categories": ["blanks"]
       },
       {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
+        "code": 20481,
+        "label": {"hint": "Mouse", "base": "Up"},
+        "categories": ["mousekeys"]
       },
       {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
+        "code": 20484,
+        "label": {"hint": "Mouse", "base": "Left"},
+        "categories": ["mousekeys"]
       },
       {
         "code": 65535,
