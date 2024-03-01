@@ -467,11 +467,7 @@
         "label": {"base": {"full": "Transparent", "1u": " "}},
         "categories": ["blanks"]
       },
-      {
-        "code": 65535,
-        "label": {"base": {"full": "Transparent", "1u": " "}},
-        "categories": ["blanks"]
-      },
+      {"code": 68, "label": {"base": "F11"}},
       {
         "code": 65535,
         "label": {"base": {"full": "Transparent", "1u": " "}},
@@ -538,12 +534,7 @@
         },
         "categories": ["consumer"]
       },
-      {
-        "code": 18613,
-        "legacyCode": 22709,
-        "label": {"base": {"full": "Next track", "1u": "⏭"}},
-        "categories": ["consumer"]
-      }
+      {"code": 69, "label": {"base": "F12"}}
     ],
     [
       {
