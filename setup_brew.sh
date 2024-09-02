@@ -1,6 +1,5 @@
 # install basics
 brew install --quiet git
-brew install --quiet pyenv
 brew install --quiet htop
 
 brew install --quiet --cask docker 
