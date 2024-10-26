@@ -5,3 +5,6 @@
 
 defaults -currentHost write -globalDomain NSStatusItemSpacing -int 6
 defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 3
+
+# install Xcode Command Line Tools
+xcode-select --install
