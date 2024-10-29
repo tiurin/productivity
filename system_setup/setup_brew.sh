@@ -11,6 +11,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install --quiet git
 brew install --quiet htop
 brew install --quiet jq
+brew install --quiet tree
 brew install --quiet localstack-cli
 
 
