@@ -10,6 +10,10 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # install terminal programs
 brew install --quiet git
 brew install --quiet htop
+brew install --quiet jq
+brew install --quiet localstack-cli
+
+
 
 # install apps
 brew install --quiet --cask docker 
