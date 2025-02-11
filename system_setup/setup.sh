@@ -1,7 +1,7 @@
 #!/bin/zsh
 
-source ./setup_system.sh
-source ./setup_shell.sh
-source ./setup_brew.sh
-source ./setup_python.sh
-source ./setup_java.sh
+source ./system.sh
+source ./shell.sh
+source ./brew.sh
+source ./python.sh
+source ./java.sh
