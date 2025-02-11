@@ -14,8 +14,7 @@ brew install --quiet htop
 brew install --quiet jq
 brew install --quiet tree
 brew install --quiet localstack-cli
-
-
+brew install --quiet 1password-cli
 
 # install apps
 brew install --quiet --cask docker 
