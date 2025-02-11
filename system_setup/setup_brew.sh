@@ -13,6 +13,7 @@ brew install --quiet gh
 brew install --quiet htop
 brew install --quiet jq
 brew install --quiet tree
+brew install --quiet rename
 brew install --quiet localstack-cli
 brew install --quiet 1password-cli
 brew install --quiet lima
