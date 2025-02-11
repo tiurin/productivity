@@ -15,6 +15,7 @@ brew install --quiet jq
 brew install --quiet tree
 brew install --quiet localstack-cli
 brew install --quiet 1password-cli
+brew install --quiet lima
 
 # install apps
 brew install --quiet --cask docker 
