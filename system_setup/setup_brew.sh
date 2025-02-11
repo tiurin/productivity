@@ -9,6 +9,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # install terminal programs
 brew install --quiet git
+brew install --quiet gh 
 brew install --quiet htop
 brew install --quiet jq
 brew install --quiet tree
