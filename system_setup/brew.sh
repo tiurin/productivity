@@ -16,7 +16,10 @@ brew install --quiet tree
 brew install --quiet rename
 brew install --quiet localstack-cli
 brew install --quiet 1password-cli
+
+# install containers
 brew install --quiet lima
+brew install --quiet orbstack
 
 # install apps
 brew install --quiet --cask docker 
