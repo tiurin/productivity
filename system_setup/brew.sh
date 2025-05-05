@@ -32,8 +32,8 @@ brew install --quiet --cask google-chrome
 brew install --quiet --cask brave-browser
 brew install --quiet --cask firefox
 
-brew install --quiet --cask jetbrains-toolbox
 brew install --quiet --cask font-jetbrains-mono
+brew install --quiet --cask pycharm
 brew install --quiet --cask visual-studio-code
 
 brew install --quiet --cask rectangle-pro
