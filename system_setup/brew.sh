@@ -40,5 +40,3 @@ brew install --quiet --cask rectangle-pro
 brew install --quiet --cask vlc 
 brew install --quiet --cask surfshark
 
-brew install --quiet --cask telegram
-brew install --quiet --cask whatsapp 
